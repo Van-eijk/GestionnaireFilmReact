@@ -10,7 +10,7 @@ class FilmItem extends React.Component {
           <View style={styles.main_container}>
             <Image
               style={styles.image}
-              source={{uri: "image"}}
+              source={require('../assets/reactnative.png') }
             />
             <View style={styles.content_container}>
               <View style={styles.header_container}>
